@@ -1,0 +1,16 @@
+# Configuration files
+config/*.ini
+!config/config.ini
+
+# Poetry files
+pyproject.toml
+poetry.lock
+
+# Data files
+data/*
+
+# Pycache files
+__pycache__/
+
+# Python version files
+.python-version
